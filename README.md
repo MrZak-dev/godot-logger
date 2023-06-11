@@ -1,4 +1,4 @@
-Logger - Logging singleton for Godot Engine
+Logger - Logging singleton for Godot Engine, Works With Godot 4
 ===========================================
 
 The *Logger* class is a GDScript singleton that provides a logging API for
@@ -36,7 +36,7 @@ relevant content.
 * `{MSG}`     = Message from the user
 * `{TIME}`    = Timestamp when the logging occurred
 * `{ERR_MSG}` = Error message corresponding to the error code, if provided.
-                It is automatically prepended with a space.
+				It is automatically prepended with a space.
 
 The timestamp format can be configured for each module using the `time_format`
 property, with the placeholders described below.
@@ -90,3 +90,8 @@ Results in:
 
 The Logger class and all other files of this repository are distributed under the
 MIT license (see the LICENSE.md file).
+
+
+### Tags
+
+godot engine, godot4, logger
